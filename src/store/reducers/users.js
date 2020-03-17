@@ -1,7 +1,5 @@
-const INITIAL_STATE = {
-  users: [],
-};
+import { users as defaultUsers } from "data/normalized";
 
-export default (state = INITIAL_STATE, action) => {
+export default (state = defaultUsers, action) => {
   return state;
 };

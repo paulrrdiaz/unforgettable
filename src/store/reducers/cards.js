@@ -1,7 +1,5 @@
-const INITIAL_STATE = {
-  cards: [],
-};
+import { cards as defaultCards } from "data/normalized";
 
-export default (state = INITIAL_STATE, action) => {
+export default (state = defaultCards, action) => {
   return state;
 };
