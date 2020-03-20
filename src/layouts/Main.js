@@ -5,7 +5,9 @@ const Main = ({ children }) => {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <div className="app--wrapper">
+        <main>{children}</main>
+      </div>
     </>
   );
 };
